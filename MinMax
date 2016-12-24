@@ -1,0 +1,61 @@
+#include <iostream>
+#include <limits>
+int main()
+{
+    int imin = std::numeric_limits<int>::min(); 
+    int imax = std::numeric_limits<int>::max();
+    unsigned int uimin = std::numeric_limits<unsigned int>::min();
+    unsigned int uimax = std::numeric_limits<unsigned int>::max();
+    short shmin = std::numeric_limits<short>::min();
+    short shmax = std::numeric_limits<short>::max();
+    unsigned short ushmin = std::numeric_limits<unsigned short>::min();
+    unsigned short ushmax = std::numeric_limits<unsigned short>::max();
+    long lmin = std::numeric_limits<long>::min();
+    long lmax = std::numeric_limits<long>::max();
+    unsigned long ulmin = std::numeric_limits<unsigned long>::min();
+    unsigned long ulmax = std::numeric_limits<unsigned long>::max();
+    float flmin = std::numeric_limits<float>::min();
+    float flmax = std::numeric_limits<float>::max();
+    double dmin = std::numeric_limits<double>::min();
+    double dmax = std::numeric_limits<double>::max();
+    long double ldmin = std::numeric_limits<long double>::min();
+    long double ldmax = std::numeric_limits<long double>::max();
+    char chmin = std::numeric_limits<char>::min();
+    char chmax = std::numeric_limits<char>::max();
+    unsigned char uchmin = std::numeric_limits<unsigned char>::min();
+    unsigned char uchmax = std::numeric_limits<unsigned char>::max();
+    std::cout << "int" << "\n";
+    std::cout << "min" << imin << "\n";
+    std::cout << "max" << imax << "\n";
+    std::cout << "unsignet int" << "\n";
+    std::cout << "max" << uimax << "\n";
+    std::cout << "min" << shmin << "\n";
+    std::cout << "short" << "\n";
+    std::cout << "max" << shmax << "\n";
+    std::cout << "min" << shmin << "\n";
+    std::cout << "unsignet short" << "\n";
+    std::cout << "min" << ushmin << "\n";
+    std::cout << "max" << ushmax << "\n";
+    std::cout << "long" << "\n";
+    std::cout << "min" << lmin << "\n";
+    std::cout << "max" << lmax << "\n";
+    std::cout <<"unsignet long" << "\n";
+    std::cout << "min" << ulmin << "\n";
+    std::cout << "max" << ulmax << "\n";
+    std::cout << "float" << "\n";
+    std::cout << "min" << flmin << "\n";
+    std::cout << "max" << flmax << "\n";
+    std::cout << "double" << "\n";
+    std::cout << "min" << dmin << "\n";
+    std::cout << "max" << dmax << "\n";
+    std::cout << "long double" << "\n";
+    std::cout << "min" << ldmin << "\n";
+    std::cout << "max" << ldmax << "\n";
+    std::cout << "char" << "\n";
+    std::cout << "min" << chmin << "\n";
+    std::cout << "max" << chmax << "\n";
+    std::cout << "unsigned char" << "\n";
+    std::cout << "min" << uchmin << "\n";
+    std::cout << "max" << uchmax <<"\n";
+    return 0;
+}
